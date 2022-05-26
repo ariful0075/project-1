@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* common css end */
+
+
+/* header part start */
+
+.header_part {
+    height: 32px;
+    background: #0872b9;
+}
+
+.header_part .header_text {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.header_part .header_icon {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+
+.header_text p {
+    color: #e7e7e7;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+}
+
+.header_icon a i {
+    color: #e7e7e7;
+    font-size: 14px;
+    line-height: 32px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+.header_icon a {
+    margin-right: 24px;
+}
+
+.header_icon a i:hover {
+    color: #353535;
+}
+
+
+/* header part end */
+
+
+/* menu bar start */
+
+.menu_part {
+    height: 80px;
+}
+
+.logo {
+    width: 160px;
+    height: 80px;
+    float: left;
+    line-height: 80px;
+}
+
+.main_menu {
+    width: 800px;
+    height: 80px;
+    float: left;
+}
+
+.main_menu ul li {
+    float: left;
+}
+
+.main_menu ul {
+    float: right;
+}
+
+.main_menu ul li a {
+    color: #353535;
+    font-size: 14px;
+    font-family: 'Myriad Pro';
+    font-weight: 400;
+    line-height: 80px;
+    margin-left: 16px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+.main_menu ul li a:hover {
+    color: #0872b9;
+}
+
+
+/* menu bar end */
+
+
+/* banner part start */
+
+.banner_part {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 88px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner_part::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+
+.banner_text {
+    width: 448px;
+    float: right;
+    text-align: right;
+}
+
+.banner_text h2 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner_text h1 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner_text p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.banner_text a {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+.banner_text a:hover {
+    background: #0872b9;
+    border-color: #0872b9;
+}
+
+
+/* banner part end */
+
+
+/* header part start */
+
+
+/* header part start */
+
+
+/* header part start */
+
+
+/* header part start */
+
+
+/* header part start */
+
+
+/* header part start */
+
+
+/* header part start */
